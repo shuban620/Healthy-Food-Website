@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Healthy Food</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="py-4 d-flex justify-content-between align-items-center">
+                    <div>
+                        <img class="logo" src="./images/logo-01.png" alt="">
+                    </div>
+                    <button class="btn screen-display-btn btn-outline-success rounded-circle text-success" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                            class="fas fa-bars"></i></button>
+                    <div class="offcanvas offcanvas-end sidebar-nav" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                            <button type="button" class="btn-close btn-close-success" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div
+                                class="d-flex justify-content-evenly align-items-center flex-column gap-3 p-1 flex-wrap rounded-pill masthead-nav">
+                                <div><a class="text-decoration-none text-dark btn " href="">Menu</a></div>
+                                <div><a class="text-decoration-none text-dark btn" href="">Offers</a></div>
+                                <div><a class="text-decoration-none text-dark btn" href="">Food</a></div>
+                                <div><a class="text-decoration-none text-dark btn" href="">Services</a></div>
+                                <div><a class="text-decoration-none text-dark btn" href="">Restaurants</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-menu">
+                        <div class="d-flex align-items-center fw-600 justify-content-between gap-4">
+                            <div><a class="text-decoration-none text-dark btn " href="">Menu</a></div>
+                            <div><a class="text-decoration-none text-dark btn" href="">Offers</a></div>
+                            <div><a class="text-decoration-none text-dark btn" href="">Food</a></div>
+                            <div><a class="text-decoration-none text-dark btn" href="">Services</a></div>
+                            <div><a class="text-decoration-none text-dark btn" href="">Restaurants</a></div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div>
+                                <a class="icon text-white"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div>
+                                <a class="icon text-white"><i class="fa-regular fa-user"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section class="container-fluid">
+        <div class="container hero-section mb-5 rounded-5">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column gap-4 spacing">
+                    <div>
+                        <h1>Savor the Flavor,
+                            Delight in Every Bite.</h1>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi </p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-left flex-column gap-4">
+                        <div>
+                            <div
+                                class="bar-grow d-flex justify-content-center align-items-center bg-light py-3 rounded-5 position-relative">
+                                <input class="border-0 bg-light input-with-button" size="80" type="search" name="search"
+                                    placeholder="Search" enable="true">
+                                <button type="button" class="submit-btn"><i
+                                        class="fa-regular fa-circle-dot"></i></button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <button class="btn btn-outline-success rounded-5 px-5 py-2">Delivery</button>
+                            <span>or</span>
+                            <button class="btn btn-outline-success rounded-5 px-5 py-2">Pickup</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 screen-display">
+                    <div>
+                        <img class="img-fluid dish-img-1" src="./images/dish-1.png" alt="">
+                        <img class="img-fluid graph-img-1 rotating" src="./images/graph-1.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid dish-img-2" src="./images/dish-2.png" alt="">
+                        <img class="img-fluid graph-img-2 rotating" src="./images/graph-2.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid dish-img-3" src="./images/dish-3.png" alt="">
+                        <img class="img-fluid graph-img-3 rotating" src="./images/graph-3.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid dish-img-4" src="./images/dish-4.png" alt="">
+                        <img class="img-fluid graph-img-4 rotating" src="./images/graph-4.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid dish-img-5" src="./images/dish-5.png" alt="">
+                        <img class="img-fluid graph-img-5 rotating" src="./images/graph-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid info-section">
+        <div><img class="vector-1" src="./images/pasta bg.png" alt=""></div>
+        <div class="container py-5">
+            <div class="row">
+                <div>
+                    <h1 class="text-center my-5">Why Choose Us</h1>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="sec-card gap-5 py-3 px-5">
+                        <div><img src="./images/sec-1.png" alt=""></div>
+                        <div>
+                            <h2>Easy To Order</h2>
+                        </div>
+                        <div>
+                            <p>Consectetur adipiscing Elit, Sed Do Eiusm Tempor incididunt ut Labore Et Dolore Magna
+                                Aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="sec-card gap-5 py-3 px-5">
+                        <div><img src="./images/sec-2.png" alt=""></div>
+                        <div>
+                            <h2>Fastest Delivery</h2>
+                        </div>
+                        <div>
+                            <p>Consectetur adipiscing Elit, Sed Do Eiusm Tempor incididunt ut Labore Et Dolore Magna
+                                Aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="gap-5 py-3 px-5">
+                        <div><img src="./images/sec-3.png" alt=""></div>
+                        <div>
+                            <h2>Best Quality</h2>
+                        </div>
+                        <div>
+                            <p>Consectetur adipiscing Elit, Sed Do Eiusm Tempor incididunt ut Labore Et Dolore Magna
+                                Aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid section-3">
+        <div><img class="vector-2" src="./images/sec-3-vector-1.png" alt=""></div>
+        <div><img class="vector-3" src="./images/sec-3-vector-2.png" alt=""></div>
+        <div class="container">
+            <div class="text-center my-5 offset-lg-2 col-lg-8 offset-lg-2 col-md-12 py-5">
+                <h1>Our Special Dishes</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac libero vitae,
+                    condimentum lacinia mauris. Phasellus vitae viverra nisi. </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center flex-column my-5">
+                    <div class="subsec-1 mt-5 mb-3">
+                        <div><img class="card-img" src="./images/card-1.png" alt=""></div>
+                        <div class="aligning-div">
+                            <div class="icon-heart rounded-circle"><i class="fa-regular fa-heart"></i></div>
+                            <div class="d-flex justify-content-left align-items-center">
+                                <img class="star-img" src="./images/Star.png" alt="">
+                                <p class="m-0">4.5</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Hamburger Street Food Seafood Fast Food</p>
+                        </div>
+                        <div>
+                            <h3>$8.53</h3>
+                        </div>
+                    </div>
+                    <div><button class="btn btn-outline-success rounded-5 px-5 py-2 btn-1">Add To Cart</button></div>
+                </div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center flex-column my-5">
+                    <div class="subsec-1 mt-5 mb-3">
+                        <div><img class="card-img" src="./images/card-2.png" alt=""></div>
+                        <div class="aligning-div">
+                            <div class="icon-heart rounded-circle"><i class="fa-regular fa-heart"></i></div>
+                            <div class="d-flex justify-content-left align-items-center">
+                                <img class="star-img" src="./images/Star.png" alt="">
+                                <p class="m-0">4.8</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>European Cuisine Ketogen</p>
+                        </div>
+                        <div>
+                            <h3>$95.53</h3>
+                        </div>
+                    </div>
+                    <div><button class="btn btn-outline-success rounded-5 px-5 py-2 btn-1">Add To Cart</button></div>
+                </div>
+                <div class="col-lg-4 col-sm-12 d-flex justify-content-center align-items-center flex-column my-5">
+                    <div class="subsec-1 mt-5 mb-3">
+                        <div><img class="card-img" src="./images/card-3.png" alt=""></div>
+                        <div class="aligning-div">
+                            <div class="icon-heart rounded-circle"><i class="fa-regular fa-heart"></i></div>
+                            <div class="d-flex justify-content-left align-items-center">
+                                <img class="star-img" src="./images/Star.png" alt="">
+                                <p class="m-0">4.0</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Ham Fast Food European Cuisine</p>
+                        </div>
+                        <div>
+                            <h3>$75.53</h3>
+                        </div>
+                    </div>
+                    <div><button class="btn btn-outline-success rounded-5 px-5 py-2 btn-1">Add To Cart</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid section-4">
+        <div><img class="vector-4" src="./images/sec-4-vector-1.png" alt=""></div>
+        <div><img class="vector-5" src="./images/sec-4-vector-2.png" alt=""></div>
+        <div><img class="vector-6" src="./images/sec-4-vector-3.png" alt=""></div>
+        <div class="container">
+            <div class="text-center my-5 py-5">
+                <h1>Menu</h1>
+            </div>
+            <div class="row">
+                <div class="swiper col-12">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-1.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-2.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-3.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-4.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-5.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-6.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-7.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-sec mt-5 mb-3">
+                                <div><img class="slide-img" src="./images/slide-8.png" alt=""></div>
+                                <div class="aligning-div">
+                                    <div class="fs-5"><i class="fa-regular fa-thumbs-up"></i></div>
+                                    <div>
+                                        <h2>Chinies</h2>
+                                    </div>
+                                    <div class="d-flex justify-content-left align-items-center">
+                                        <img class="star-img" src="./images/Star.png" alt="">
+                                        <p class="m-0">4.5</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac
+                                        libero vitae.</p>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center gap-5">
+                                    <div>
+                                        <h3><span class="dollar">$</span>76.00</h3>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center gap-1 fs-5">
+                                        <div><i class="fa-regular fa-heart"></i></div>
+                                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid section-5">
+        <div class="container">
+            <div><img class="vector-7" src="./images/sec-5-vector-1.png" alt=""></div>
+            <div><img class="vector-8" src="./images/sec-5-vector-2.png" alt=""></div>
+            <div class="container">
+                <div class="text-center my-5 py-5">
+                    <h1>Gallery</h1>
+                </div>
+                <div class="row my-5">
+                    <div class=" d-flex justify-content-center align-items-center gap-3">
+                        <div class=""><img class="img-gallery" src="./images/sec-5-img-1.png" alt="">
+                        </div>
+                        <div class=" gap-3">
+                            <div><img class="img-gallery img-setup" src="./images/sec-5-img-2.png" alt=""></div>
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <div class=""><img class="img-gallery" src="./images/sec-5-img-3.png" alt="">
+                                </div>
+                                <div class=""><img class="img-gallery" src="./images/sec-5-img-4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container-fluid py-5 section-6">
+        <div><img class="vector-9" src="./images/sec-6-vector-1.png" alt=""></div>
+        <div><img class="vector-10" src="./images/sec-6-vector-2.png" alt=""></div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-10 rounded-5 mx-auto bg-image">
+                    <div class="text-center my-5 py-5">
+                        <h1>Join Our Member And Get <br>Discount To 35%</h1><br><br>
+                        <div class="offset-lg-3 col-lg-6 bg-light p-3 rounded-5 position-relative">
+                            <input class="border-0 bg-light input-with-button" size="12" type="email" name="email"
+                                placeholder="Enter your email" required>
+                            <button type="submit" class="btn btn-3 rounded-5 submit-btn">Sign in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-start">
+                <div class="col-lg-4 col-md-12 mb-5">
+                    <div><img class="w-50 mb-3" src="./images/logo-01.png" alt=""></div>
+                    <div>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In est est, iaculis ac libero
+                            vitae,
+                            condimentum lacinia mauris. Phasellus vitae viverra nisi. </h6>
+                    </div>
+                    <div class="mb-3 d-flex justify-content-left align-items-center gap-3">
+                        <div><a href="" class="fs-5 btn btn-outline-success rounded-circle py-3 px-4"><i
+                                    class="fa-brands fa-facebook-f"></i></a></div>
+                        <div><a href="" class="fs-5 btn btn-outline-success rounded-circle py-3 px-4"><i
+                                    class="fa-brands fa-whatsapp"></i></a></div>
+                        <div><a href="" class="fs-5 btn btn-outline-success rounded-circle py-3 px-4"><i
+                                    class="fa-brands fa-instagram"></i></a></div>
+                        <div><a href="" class="fs-5 btn btn-outline-success rounded-circle py-3 px-4"><i
+                                    class="fa-brands fa-pinterest-p"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <div>
+                        <h4>Support</h4>
+                    </div>
+                    <div>
+                        <p>Account</p>
+                    </div>
+                    <div>
+                        <p>Support Center</p>
+                    </div>
+                    <div>
+                        <p>Feedback</p>
+                    </div>
+                    <div>
+                        <p>Accebility</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <div>
+                        <h4>Our Menu</h4>
+                    </div>
+                    <div>
+                        <p>Special</p>
+                    </div>
+                    <div>
+                        <p>Popular</p>
+                    </div>
+                    <div>
+                        <p>Categories</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <div>
+                        <h4>Useful Links</h2>
+                    </div>
+                    <div>
+                        <p>Payment & Tax</p>
+                    </div>
+                    <div>
+                        <p>Terms Of Service</p>
+                    </div>
+                    <div>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div>
+                        <p>About Us</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5">
+                    <div>
+                        <h4>Get In Touch</h4>
+                    </div>
+                    <div>
+                        <p>healthyfood@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fw-light text-center mt-5 mb-0">
+            <p>© 2024. UI Design by Dur-e-Muhammad (G.D) | Developed by Muhammad Shuban Ali (W.D). All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <script src="https://assets.codepen.io/16327/InertiaPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
